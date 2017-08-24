@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1476221959 source:/home/babloo/Desktop/OpenGLProject/display.cpp
+	"display.h"
+	<GL/glew.h>
+	<iostream>
+
+1476221937 /home/babloo/Desktop/OpenGLProject/display.h
+	<string>
+	<SDL2/SDL.h>
+
+1476264713 source:/home/babloo/Desktop/OpenGLProject/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	"display.h"
+	"mesh.h"
+	"shader.h"
+	"texture.h"
+	"transform.h"
+	"camera.h"
+
+1476221903 /home/babloo/Desktop/OpenGLProject/shader.h
+	<string>
+	<GL/glew.h>
+	"transform.h"
+
+1476219654 /home/babloo/Desktop/OpenGLProject/mesh.h
+	<GL/glew.h>
+	<glm/glm.hpp>
+	<string>
+	<vector>
+	"obj_loader.h"
+
+1476221718 /home/babloo/Desktop/OpenGLProject/obj_loader.h
+	<glm/glm.hpp>
+	<vector>
+	<string>
+
+1476221210 /home/babloo/Desktop/OpenGLProject/transform.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	"camera.h"
+
+1476221369 /home/babloo/Desktop/OpenGLProject/camera.h
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+
+1476220121 /home/babloo/Desktop/OpenGLProject/texture.h
+	<string>
+	<GL/glew.h>
+
+1476219674 source:/home/babloo/Desktop/OpenGLProject/mesh.cpp
+	"mesh.h"
+	"util.h"
+	"debugTimer.h"
+	<map>
+	<algorithm>
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1476222039 /home/babloo/Desktop/OpenGLProject/util.h
+	<vector>
+	<sstream>
+	"debugTimer.h"
+
+1476222101 /home/babloo/Desktop/OpenGLProject/debugTimer.h
+	<SDL2/SDL.h>
+	<iostream>
+
+1476221772 source:/home/babloo/Desktop/OpenGLProject/obj_loader.cpp
+	"obj_loader.h"
+	<fstream>
+	<iostream>
+	<algorithm>
+	<map>
+
+1476222125 source:/home/babloo/Desktop/OpenGLProject/shader.cpp
+	"shader.h"
+	<iostream>
+	<fstream>
+
+1476220724 source:/home/babloo/Desktop/OpenGLProject/stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
+
+1476220654 /home/babloo/Desktop/OpenGLProject/stb_image.h
+	<stdio.h>
+
+1476220142 source:/home/babloo/Desktop/OpenGLProject/texture.cpp
+	"texture.h"
+	"stb_image.h"
+	<iostream>
+
